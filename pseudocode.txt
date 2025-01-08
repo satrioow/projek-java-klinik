@@ -24,7 +24,8 @@ Prosedur TampilMenu()
     Tampilkan "[2] Tambah Data Pelanggan"
     Tampilkan "[3] Ubah Data Pelanggan"
     Tampilkan "[4] Hapus Data Pelanggan"
-    Tampilkan "[5] Selesai"
+    Tampilkan "[5] Cetak Struk Pelanggan"
+    Tampilkan "[6] Selesai"
     Input pilihan
     
     Jika pilihan = 1 maka
@@ -36,6 +37,8 @@ Prosedur TampilMenu()
     Jika pilihan = 4 maka
         HapusData()
     Jika pilihan = 5 maka
+        cetakStrukPelanggan()
+    Jika pilihan = 6 maka
         programBerjalan = false
     
 Prosedur TambahData()
@@ -69,7 +72,14 @@ Prosedur UbahData()
     Input nomorPelanggan
     Input data baru
     Update pelangganData
-    
+
+Prosedur cetakStrukPelanggan()
+    TampilkanData()
+    Input nomorPelanggan
+    TAMPILKAN header struk
+    TAMPILKAN informasi pelanggan
+    TAMPILKAN rincian pembayaran
+    TAMPILKAN footer struk
 Prosedur HapusData()
     TampilkanData()
     Input nomorPelanggan
