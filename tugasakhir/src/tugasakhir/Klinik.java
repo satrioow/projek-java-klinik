@@ -144,7 +144,6 @@ public class Klinik {
         }
     }
 }
-    // Tambahkan metode untuk mencetak struk
 static void cetakStruk(Klinik pelanggan) {
     String layanan;
     int hargaLayanan;
