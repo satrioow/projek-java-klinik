@@ -58,7 +58,7 @@ public class Klinik {
                 deleteData();
                 break;
             case 5:
-                cetakStrukPelanggan(); // Panggil metode untuk mencetak struk
+                cetakStrukPelanggan(); 
                 break;
             case 6:
                 System.exit(0);
